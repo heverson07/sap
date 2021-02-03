@@ -1,9 +1,14 @@
+
 <mvc:View
-controllerName="sap.ui.demo.walkthrough.controller.App"
-xmlns="sap.m"
-xmlns:mvc="sap.ui.core.mvc">
-<Text text="Voce é o cara melhor do mundo!"/>
-<button text="Sai hi" press=".onShowHello">
-    
-</button>
+   controllerName="sap.ui.demo.walkthrough.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Button
+      text="Aperte aqui"
+      press=".onShowHello"/>
+   <Input
+      value="{/recipient/name}"
+      description="O mundo é cheio de surprsas {/recipient/name}"
+      valueLiveUpdate="true"
+      width="60%"/>
 </mvc:View>
