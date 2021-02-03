@@ -1,5 +1,9 @@
 <mvc:View
+controllerName="sap.ui.demo.walkthrough.controller.App"
 xmlns="sap.m"
 xmlns:mvc="sap.ui.core.mvc">
 <Text text="Voce é o cara melhor do mundo!"/>
+<button text="Sai hi" press=".onShowHello">
+    
+</button>
 </mvc:View>
