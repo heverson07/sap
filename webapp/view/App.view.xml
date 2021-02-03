@@ -9,17 +9,20 @@
 			<pages>
 				<Page title="{i18n>homePageTitle}">
 					<content>
-						<Panel
-							headerText="{i18n>helloPanelTitle}">
+						<Panel headerText="{i18n>Configuração do Novo Sistema}"
+								class="sapResponsiveMargin"
+								width="auto">
 							<content>
-								<Button
-									text="{i18n>showHelloButtonText}"
-									press=".onShowHello"/>
+								<Button text="{i18n>showHelloButtonText}"
+										press=".onShowHello"
+										class="sapUISmallMarginEnd"/>
 								<Input
 									value="{/recipient/name}"
-									description="Hello {/recipient/name}"
+									description="criação do novo sistema {/recipient/name}"
 									valueLiveUpdate="true"
 									width="60%"/>
+								<Text text="Voce será um cara Excelente{recipient/name}"
+									class="sapUISmallMargin"/>
 							</content>
 						</Panel>
 					</content>
