@@ -8,7 +8,7 @@
       press=".onShowHello"/>
    <Input
       value="{/recipient/name}"
-      description="O mundo é cheio de surprsas {/recipient/name}"
+      description="O mundo é cheio de surprsa {/recipient/name}"
       valueLiveUpdate="true"
       width="60%"/>
 </mvc:View>
